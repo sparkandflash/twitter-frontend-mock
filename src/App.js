@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Divider, HStack, Box } from '@chakra-ui/react'
+import Menu from './components/Menu.js';
+import Feed from './components/Feed.js';
+import Search from './components/Search.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      
-      </header>
+    <div >
+      <HStack>
+        <Menu />
+        <Divider  color='black' orientation='vertical' />
+        <Feed />
+        <Divider color='black' orientation='vertical' />
+        <Search />
+      </HStack>
     </div>
   );
 }
