@@ -1,18 +1,16 @@
-import { Divider, HStack, Box } from '@chakra-ui/react'
+import { Divider, Flex, Spacer, HStack, Box } from '@chakra-ui/react'
 import Menu from './components/Menu.js';
 import Feed from './components/Feed.js';
 import Search from './components/Search.js';
 function App() {
   return (
-    <div >
-      <HStack>
-        <Menu />
-        <Divider  color='black' orientation='vertical' />
-        <Feed />
-        <Divider color='black' orientation='vertical' />
-        <Search />
-      </HStack>
-    </div>
+    <Flex maxWidth={'100vw'} height={'100vh'}>
+      <Menu />
+      <Feed />
+      <Search />
+    </Flex>
+
+
   );
 }
 
