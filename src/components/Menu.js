@@ -2,7 +2,7 @@ import { VStack, Button, Text, Box } from '@chakra-ui/react'
 
 function Menu() {
     return (
-        <VStack padding={2} w='300px' borderRightWidth='1px' minH={'100%'}>
+        <VStack padding={2} w='400px' borderRightWidth='1px' minH={'100%'}>
             <Text fontSize='lg' p={2} as='b'>Home</Text>
             <Text fontSize='lg' p={2} >Explore</Text>
             <Text fontSize='lg' p={2}>Notifications</Text>
