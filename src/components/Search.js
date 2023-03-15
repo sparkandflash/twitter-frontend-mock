@@ -17,7 +17,7 @@ function Search() {
                 <Input borderColor='rgb(247, 249, 249)' w='270px' borderRadius='20px' bgColor='rgb(235, 237, 237)' placeholder='search twitter' />
             </InputGroup>
 
-            <Box   w='270px' bgColor='rgb(247, 249, 249)' borderColor='rgb(247, 249, 249)' borderWidth='1px' p='20px' borderRadius='lg' h='300px'> <Text  bgColor='rgb(247, 249, 249)' fontSize='xl' as='b'>what 's happening</Text></Box>
+            <Box   w='270px' bgColor='rgb(247, 249, 249)' borderColor='rgb(247, 249, 249)' borderWidth='1px' paddingLeft='20px' paddingTop='10px' borderRadius='lg' h='300px'> <Text  bgColor='rgb(247, 249, 249)' fontSize='xl' as='b'>what 's happening</Text></Box>
 
             <Box   w='270px' bgColor='rgb(247, 249, 249)' borderColor='rgb(247, 249, 249)' borderWidth='1px' p='20px' borderRadius='lg' h='300px'>  <Text  bgColor='rgb(247, 249, 249)' fontSize='xl' as='b'>Who to follow</Text> </Box>
 
