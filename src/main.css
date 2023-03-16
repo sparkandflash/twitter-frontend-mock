@@ -2,6 +2,8 @@
     background-color: rgb(255, 255, 255);
   }
 
+  /* fonts */
+
   @font-face {
     font-family: 'chirp-bold-web';
     src: local('chirp-bold-web'), url(./fonts/chirp-bold-web.woff) format('woff');
@@ -18,28 +20,47 @@
     font-family: 'chirp-regular-web';
     src: local('chirp-regular-web'), url(./fonts/chirp-regular-web.woff) format('woff');
   }
+ 
+  /* -- menu - -*/
 
   .menu-home {
-    font-family: chirp-heavy-web
+    font-family: chirp-heavy-web;
+  
   }
 
-  .place-holder-textarea {
-    font-family: chirp-medium-web;
-    font-size: 70px
-  }
+  /*. feed */
+
+ 
 
   .tab-selection {
     background-color: rgb(255, 255, 255);
     cursor: pointer;
-   color :rgb(114, 114, 114)
+   color :rgb(114, 114, 114);
+
   }
  
  .tab-selection:hover {
     background-color: rgb(219, 219, 219);
     font-weight: bold;
-    color :rgb(0, 0, 0)
+    
  }
 
  .tab-selection-text {
   background-color: rgba(0, 0, 0, 0); ;
  }
+
+/*. tweet box */
+
+ .home-tweet-box {
+  display: block;
+    min-width:100%;
+    padding: 8px 15px 8px;
+ }
+
+ .place-holder-textarea {
+  font-family: chirp-medium-web;
+  font-size: 70px;
+  padding:5px;
+}
+/* search section */
+
