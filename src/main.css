@@ -1,66 +1,67 @@
- * {
-    background-color: rgb(255, 255, 255);
-  }
+* {
+  background-color: rgb(255, 255, 255);
+}
 
-  /* fonts */
+/* fonts */
 
-  @font-face {
-    font-family: 'chirp-bold-web';
-    src: local('chirp-bold-web'), url(./fonts/chirp-bold-web.woff) format('woff');
-  }
-  @font-face {
-    font-family: 'chirp-heavy-web';
-    src: local('chirp-heavy-web'), url(./fonts/chirp-heavy-web.woff) format('woff');
-  }
-  @font-face {
-    font-family: 'chirp-medium-web';
-    src: local('chirp-medium-web'), url(./fonts/chirp-medium-web.woff) format('woff');
-  }
-  @font-face {
-    font-family: 'chirp-regular-web';
-    src: local('chirp-regular-web'), url(./fonts/chirp-regular-web.woff) format('woff');
-  }
- 
-  /* -- menu - -*/
+@font-face {
+  font-family: "chirp-bold-web";
+  src: local("chirp-bold-web"), url(./fonts/chirp-bold-web.woff) format("woff");
+}
+@font-face {
+  font-family: "chirp-heavy-web";
+  src: local("chirp-heavy-web"),
+    url(./fonts/chirp-heavy-web.woff) format("woff");
+}
+@font-face {
+  font-family: "chirp-medium-web";
+  src: local("chirp-medium-web"),
+    url(./fonts/chirp-medium-web.woff) format("woff");
+}
+@font-face {
+  font-family: "chirp-regular-web";
+  src: local("chirp-regular-web"),
+    url(./fonts/chirp-regular-web.woff) format("woff");
+}
 
-  .menu-home {
-    font-family: chirp-heavy-web;
-  
-  }
+/* -- menu - -*/
 
-  /*. feed */
+.menu-home {
+  font-family: chirp-heavy-web;
+}
 
- 
+/*. feed */
 
-  .tab-selection {
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-   color :rgb(114, 114, 114);
+.tab-selection {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(114, 114, 114);
+}
 
-  }
- 
- .tab-selection:hover {
-    background-color: rgb(219, 219, 219);
-    font-weight: bold;
-    
- }
+.tab-selection:hover {
+  background-color: rgb(219, 219, 219);
+  font-weight: bold;
+}
 
- .tab-selection-text {
-  background-color: rgba(0, 0, 0, 0); ;
- }
+.tab-selection-text {
+  background-color: rgba(0, 0, 0, 0);
+}
 
 /*. tweet box */
 
- .home-tweet-box {
+.home-tweet-box {
   display: block;
-    min-width:100%;
-    padding: 8px 15px 8px;
- }
+  min-width: 100%;
+  padding: 8px 15px 8px;
+}
 
- .place-holder-textarea {
+.place-holder-textarea {
   font-family: chirp-medium-web;
   font-size: 70px;
-  padding:5px;
+  padding: 5px;
 }
 /* search section */
 
+.whthap-box-div {
+  background-color: rgb(247, 249, 249);
+}
