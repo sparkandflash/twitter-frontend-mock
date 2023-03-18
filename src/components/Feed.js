@@ -1,6 +1,5 @@
 //infinite scroll
 import {
-  HStack,
   Image,
   Spacer,
   Tab,

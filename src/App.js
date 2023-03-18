@@ -1,4 +1,4 @@
-import { Divider, Flex, Spacer, HStack, Box } from '@chakra-ui/react'
+import {  Flex } from '@chakra-ui/react'
 import Menu from './components/Menu.js';
 import Feed from './components/Feed.js'; 
 

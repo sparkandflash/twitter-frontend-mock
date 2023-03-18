@@ -1,9 +1,9 @@
-import { HStack, Image, Heading, Text, Box } from "@chakra-ui/react";
+import { HStack, Image, Heading, Text, Box } from "@chakra-ui/react"
 let twitter_user = {
   name: "some twitter user",
-  image: "https://bit.ly/dan-abramov",
-};
-function TwiPost(user) {
+  image: "https://bit.ly/dan-abramov"
+}
+function TwiPost() {
   return (
     <Box p="10px" borderBottomWidth="1px" minW={"100%"}>
       <HStack spacing="14px">
@@ -22,6 +22,6 @@ function TwiPost(user) {
         </Box>
       </HStack>
     </Box>
-  );
+  )
 }
-export default TwiPost;
+export default TwiPost
