@@ -1,6 +1,6 @@
 # Twitter front end mockup.
-twitter front end made with react, css, chakra ui. with mock data. 
-status : in progress. 
+twitter front end made with react, css and chakra ui, with mock data. 
+- status : in progress. 
 
 # Getting Started with Create React App
 
