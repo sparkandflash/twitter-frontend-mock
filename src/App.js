@@ -5,7 +5,7 @@ import Feed from './components/Feed.js';
 import Search from './components/Search.js';
 function App() {
   return (
-    <Flex maxWidth={'100vw'} height={'100vh'}>
+    <Flex maxWidth={'100vw'} >
       <Menu />
       <Feed />
       

@@ -3,20 +3,20 @@ let searchData = {
     {
       Heading: "Magic at Suns",
       url: "",
-      sidetext: "this morning",
+      sidetext: "This morning",
       content: "NBA",
       "image-url":
         "https://pbs.twimg.com/semantic_core_img/1450893897828208640/Fu_euobk?format=jpg&name=360x360"
     },
     {
-      Heading: "#UkraineRussianWar",
+      Heading: "Alien invasion announced",
       url: "",
       sidetext: "Trending",
       content: "Politics",
       tweets: "251k"
     },
     {
-      Heading: "Putin",
+      Heading: "Putin nukes ukraine",
       url: "",
       sidetext: "Trending",
       content: "Politics"

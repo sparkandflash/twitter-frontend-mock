@@ -1,9 +1,9 @@
-import { VStack, Button, GridItem, Text, Box } from "@chakra-ui/react";
-import menuData from "../menuData";
+import { VStack, Button, GridItem, Text, Box } from "@chakra-ui/react"
+import menuData from "../menuData"
 
 function Menu() {
   return (
-    <Box marginLeft="70px">
+    <Box  marginLeft="70px">
       <VStack
         padding={2}
         w="260px"
@@ -30,7 +30,7 @@ function Menu() {
                   {item.name}
                 </Text>
               </GridItem>
-            );
+            )
           })}
         <Button
           w="220px"
@@ -42,7 +42,7 @@ function Menu() {
         </Button>
       </VStack>
     </Box>
-  );
+  )
 }
 
-export default Menu;
+export default Menu

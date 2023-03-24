@@ -167,7 +167,8 @@ function Search() {
               fontFamily="chirp-bold-web"
             >
               {" "}
-              {searchData.whtshap[3].Heading}
+              {searchData.whtshap[3].Heading} <br /> trending with{" "}
+              {searchData.whtshap[3].trending_with}
             </Text>
           </div>
         </Box>
@@ -180,12 +181,22 @@ function Search() {
         borderWidth="1px"
         p="20px"
         borderRadius="lg"
-        h="300px"
+        h="250px"
       >
-        {" "}
         <Text bgColor="rgb(247, 249, 249)" fontSize="xl" as="b">
           Who to follow
-        </Text>{" "}
+        </Text>
+        {searchData.who_to_follow &&
+          searchData.who_to_follow.map((item) => {
+            return (
+              <Box key={item.name}>
+                {/* <a href={item.url} target=''><i className={item.className}></i></a> */}
+                <Text fontSize="lg" p={3}>
+                  {item.name}
+                </Text>
+              </Box>
+            )
+          })}
       </Box>
     </VStack>
   )
