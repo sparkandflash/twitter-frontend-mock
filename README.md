@@ -1,3 +1,7 @@
+# Twitter front end mockup.
+twitter front end made with react, css and chakra ui, with mock data. 
+- status : in progress. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
