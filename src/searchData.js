@@ -16,17 +16,17 @@ let searchData = {
       tweets: "251k"
     },
     {
-      Heading: "Putin nukes ukraine",
+      Heading: "I like Chicken",
       url: "",
       sidetext: "Trending",
       content: "Politics"
     },
     {
-      Heading: "HeraPheri#",
+      Heading: "IceCream#",
       url: "",
       sidetext: "Trending",
-      content: "Celebrities",
-      trending_with: "REMOVE FARHAD FROM HERAPHERI",
+      content: "Food",
+      trending_with: "ICE CREAM GOOD FOR HEALTH",
       TrendingW_url: ""
     }
   ],
